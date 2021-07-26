@@ -1,3 +1,5 @@
+# 1 evosuite
+``` xml
     <dependency>
             <groupId>org.evosuite</groupId>
             <artifactId>evosuite-standalone-runtime</artifactId>
@@ -25,5 +27,12 @@
         <version>1.0.6</version>
     </plugin>
 
+```
 
 // sh  脚本
+* generator_test.sh
+
+# 2 sqrt Test
+command + n 生成测试
+
+
