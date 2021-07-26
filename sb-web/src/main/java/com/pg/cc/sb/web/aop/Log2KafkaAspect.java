@@ -43,3 +43,4 @@ public class Log2KafkaAspect {
         return result;
     }
 }
+
