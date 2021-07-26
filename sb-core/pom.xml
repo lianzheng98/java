@@ -49,11 +49,29 @@
             <artifactId>guava</artifactId>
             <version>30.1.1-jre</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.evosuite</groupId>
+            <artifactId>evosuite-standalone-runtime</artifactId>
+            <version>1.0.6</version>
+        </dependency>
     </dependencies>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>EvoSuite</id>
+            <name>EvoSuite Repository</name>
+            <url>http://www.evosuite.org/m2</url>
+        </pluginRepository>
+    </pluginRepositories>
+
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.evosuite.plugins</groupId>
+                <artifactId>evosuite-maven-plugin</artifactId>
+                <version>1.0.6</version>
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
