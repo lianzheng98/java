@@ -9,6 +9,9 @@
         <artifactId>java</artifactId>
         <version>1.0.1</version>
     </parent>
+    <properties>
+        <arthas.version>3.4.8</arthas.version>
+    </properties>
 
     <groupId>com.pg633</groupId>
     <artifactId>sb-web</artifactId>
@@ -45,6 +48,11 @@
             <groupId>org.evosuite</groupId>
             <artifactId>evosuite-standalone-runtime</artifactId>
             <version>1.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.taobao.arthas</groupId>
+            <artifactId>arthas-spring-boot-starter</artifactId>
+            <version>${arthas.version}</version>
         </dependency>
     </dependencies>
 

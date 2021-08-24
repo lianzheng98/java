@@ -37,11 +37,18 @@
                 <artifactId>sb-core</artifactId>
                 <version>1.0.1</version>
             </dependency>
+            <dependency>
+                <groupId>com.pg633</groupId>
+                <artifactId>sb-rpc</artifactId>
+                <version>1.0.1</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
     <modules>
         <module>sb-core</module>
         <module>sb-web</module>
+        <module>sb-test</module>
+        <module>sb-rpc</module>
     </modules>
 </project>

@@ -11,6 +11,7 @@ package com.pg.cc.sb.core.TTest;
  */
 public class Exam {
 
+    private String asdList;
     public boolean canViewAnswer(String viewAnswer) {
         if (viewAnswer == null) {
             return false;

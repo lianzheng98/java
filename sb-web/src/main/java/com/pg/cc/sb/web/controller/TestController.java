@@ -19,6 +19,7 @@ public class TestController {
     @ResponseBody
     @Log2Center(method = "test")
     public String testDemo() {
-        return "Hello World!";
+        String springframework = "213";
+        return springframework;
     }
 }
