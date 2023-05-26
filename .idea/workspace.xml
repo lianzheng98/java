@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a6cf30-dcc1-41fd-bf43-46193889f034" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/sb-test/src/main/java/cc/TestFunc.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sb-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-core/src/main/java/com/pg/cc/sb/core/ATest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-core/src/main/java/com/pg/cc/sb/core/TTest/AA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-core/src/main/java/com/pg/cc/sb/core/TTest/Exam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-core/src/main/java/com/pg/cc/sb/core/common/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-core/src/main/java/com/pg/cc/sb/core/common/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-core/src/main/java/com/pg/cc/sb/core/stream/GroupSTream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-core/src/test/java/com/pg/cc/sb/core/TTest/ExamTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-core/src/test/java/com/pg/cc/sb/core/TTest/Exam_ESTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-core/src/test/java/com/pg/cc/sb/core/TTest/Exam_ESTest_scaffolding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-core/src/test/java/com/pg/cc/sb/core/common/ObjTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sb-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sb-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sb-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-test/src/main/java/dd/a.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-test/src/main/java/dd/a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-test/target/classes/dd/a.class" beforeDir="false" afterPath="$PROJECT_DIR$/sb-test/target/classes/dd/a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-web/src/main/java/com/pg/cc/sb/web/filter/TestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-web/src/main/java/com/pg/cc/sb/web/filter/TestFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +53,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$MAVEN_REPOSITORY$" />
-        <option name="mavenHome" value="/usr/local/Cellar/maven/3.8.2/libexec" />
-        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/aliyun.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -49,6 +66,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -59,7 +77,10 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -73,61 +94,55 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.a">
-    <configuration name="DepartmentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cc.DepartmentTest" />
-      <module name="sb-test" />
+  <component name="RunManager" selected="JUnit.ExecutorCom.testRunTaskByExecutorCompletionService">
+    <configuration name="ExecutorCom.testRunTaskByExecutorCompletionService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sb-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cc.*" />
+          <option name="PATTERN" value="com.pg.cc.sb.core.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.pg.cc.sb.core.future" />
+      <option name="MAIN_CLASS_NAME" value="com.pg.cc.sb.core.future.ExecutorCom" />
+      <option name="METHOD_NAME" value="testRunTaskByExecutorCompletionService" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProduceConsume$test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cc.ProduceConsume$test" />
-      <module name="sb-test" />
+    <configuration name="FutureUtils" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sb-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cc.*" />
+          <option name="PATTERN" value="com.pg.cc.sb.core.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.pg.cc.sb.core.future" />
+      <option name="MAIN_CLASS_NAME" value="com.pg.cc.sb.core.future.FutureUtils" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cc.Test" />
-      <module name="sb-test" />
+    <configuration name="FutureUtils.testRunCompletableFuture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sb-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cc.*" />
+          <option name="PATTERN" value="com.pg.cc.sb.core.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.pg.cc.sb.core.future" />
+      <option name="MAIN_CLASS_NAME" value="com.pg.cc.sb.core.future.FutureUtils" />
+      <option name="METHOD_NAME" value="testRunCompletableFuture" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cc.ThreadPrint" />
-      <module name="sb-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dd.a" />
+    <configuration name="a.testRunCompletableFuture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sb-test" />
       <extension name="coverage">
         <pattern>
@@ -135,6 +150,26 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="dd" />
+      <option name="MAIN_CLASS_NAME" value="dd.a" />
+      <option name="METHOD_NAME" value="testRunCompletableFuture" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a.testRunTaskByExecutorCompletionService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sb-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dd" />
+      <option name="MAIN_CLASS_NAME" value="dd.a" />
+      <option name="METHOD_NAME" value="testRunTaskByExecutorCompletionService" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.a" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.DepartmentTest" />
-        <item itemvalue="Application.ThreadPrint" />
-        <item itemvalue="Application.ProduceConsume$test" />
+        <item itemvalue="JUnit.ExecutorCom.testRunTaskByExecutorCompletionService" />
+        <item itemvalue="JUnit.FutureUtils" />
+        <item itemvalue="JUnit.FutureUtils.testRunCompletableFuture" />
+        <item itemvalue="JUnit.a.testRunCompletableFuture" />
+        <item itemvalue="JUnit.a.testRunTaskByExecutorCompletionService" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +217,7 @@
       <workItem from="1633777596133" duration="110000" />
       <workItem from="1633844077761" duration="5091000" />
       <workItem from="1633933657161" duration="2375000" />
+      <workItem from="1685114237364" duration="4897000" />
     </task>
     <servers />
   </component>
