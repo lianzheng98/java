@@ -1,0 +1,7 @@
+{
+  "timestamp": "2023-05-27T14:27:19.678+0000",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "JSON parse error: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.lang.String` out of START_OBJECT token\n at [Source: (PushbackInputStream); line: 2, column: 11] (through reference chain: com.pg.cc.sb.web.controller.TestController$ACls[\"name\"])",
+  "path": "/app/e1"
+}

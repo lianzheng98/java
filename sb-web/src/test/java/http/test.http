@@ -1,0 +1,12 @@
+
+
+###
+POST {{baseUrl}}/app/e1
+Content-Type: application/json
+
+{
+  "id": 0,
+  "name": "name"
+}
+
+

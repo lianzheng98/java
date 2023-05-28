@@ -1,0 +1,7 @@
+{
+  "timestamp": "2023-05-27T14:24:17.170+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Circular view path [e1]: would dispatch back to the current handler URL [/app/e1] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)",
+  "path": "/app/e1"
+}

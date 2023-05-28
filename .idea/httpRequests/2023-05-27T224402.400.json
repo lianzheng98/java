@@ -1,0 +1,35 @@
+{
+  "timestamp": "2023-05-27T14:44:02.771+0000",
+  "status": 400,
+  "error": "Bad Request",
+  "errors": [
+    {
+      "codes": [
+        "Min.ACls.id",
+        "Min.id",
+        "Min.int",
+        "Min"
+      ],
+      "arguments": [
+        {
+          "codes": [
+            "ACls.id",
+            "id"
+          ],
+          "arguments": null,
+          "defaultMessage": "id",
+          "code": "id"
+        },
+        1
+      ],
+      "defaultMessage": "最小不能小于1",
+      "objectName": "ACls",
+      "field": "id",
+      "rejectedValue": 0,
+      "bindingFailure": false,
+      "code": "Min"
+    }
+  ],
+  "message": "Validation failed for object='ACls'. Error count: 1",
+  "path": "/app/e1"
+}
