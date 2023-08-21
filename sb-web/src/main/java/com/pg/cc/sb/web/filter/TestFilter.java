@@ -13,11 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @author lianzheng04
- * @version 1.0
- * @date 2020/12/14 6:52 下午
- */
 @Component
 public class TestFilter implements Filter {
 

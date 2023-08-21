@@ -7,16 +7,14 @@
     <parent>
         <groupId>com.pg633</groupId>
         <artifactId>java</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
+
     <properties>
         <arthas.version>3.4.8</arthas.version>
     </properties>
 
-    <groupId>com.pg633</groupId>
     <artifactId>sb-web</artifactId>
-    <version>1.0.1</version>
-    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
@@ -49,13 +47,6 @@
             <artifactId>evosuite-standalone-runtime</artifactId>
             <version>1.0.6</version>
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>com.taobao.arthas</groupId>-->
-        <!--            <artifactId>arthas-spring-boot-starter</artifactId>-->
-        <!--            <version>${arthas.version}</version>-->
-        <!--        </dependency>-->
-
-        <!--        java x 校验-->
         <dependency>
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
@@ -65,24 +56,11 @@
             <groupId>com.pg633</groupId>
             <artifactId>sb-core</artifactId>
         </dependency>
-
     </dependencies>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>EvoSuite</id>
-            <name>EvoSuite Repository</name>
-            <url>http://www.evosuite.org/m2</url>
-        </pluginRepository>
-    </pluginRepositories>
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.evosuite.plugins</groupId>
-                <artifactId>evosuite-maven-plugin</artifactId>
-                <version>1.0.6</version>
-            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

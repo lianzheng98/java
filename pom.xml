@@ -6,9 +6,15 @@
 
     <groupId>com.pg633</groupId>
     <artifactId>java</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>SbJava</name>
+    <modules>
+        <module>sb-core</module>
+        <module>sb-web</module>
+        <module>sb-tool</module>
+    </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -20,35 +26,24 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
-
-    <dependencies>
-
-    </dependencies>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>com.pg633</groupId>
-                <artifactId>sb-web</artifactId>
-                <version>1.0.1</version>
-            </dependency>
-            <dependency>
-                <groupId>com.pg633</groupId>
                 <artifactId>sb-core</artifactId>
-                <version>1.0.1</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>com.pg633</groupId>
-                <artifactId>sb-rpc</artifactId>
-                <version>1.0.1</version>
+                <artifactId>sb-web</artifactId>
+                <version>${version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pg633</groupId>
+                <artifactId>sb-tool</artifactId>
+                <version>${version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
 
-    <modules>
-        <module>sb-core</module>
-        <module>sb-web</module>
-        <module>sb-test</module>
-        <module>sb-rpc</module>
-    </modules>
 </project>

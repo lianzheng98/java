@@ -7,17 +7,12 @@
     <parent>
         <groupId>com.pg633</groupId>
         <artifactId>java</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.pg633</groupId>
     <artifactId>sb-core</artifactId>
-    <version>1.0.1</version>
-    <packaging>jar</packaging>
 
     <dependencies>
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -32,7 +27,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
-
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -49,11 +43,7 @@
             <artifactId>guava</artifactId>
             <version>30.1.1-jre</version>
         </dependency>
-        <dependency>
-            <groupId>org.evosuite</groupId>
-            <artifactId>evosuite-standalone-runtime</artifactId>
-            <version>1.0.6</version>
-        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -61,25 +51,12 @@
         </dependency>
     </dependencies>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>EvoSuite</id>
-            <name>EvoSuite Repository</name>
-            <url>http://www.evosuite.org/m2</url>
-        </pluginRepository>
-    </pluginRepositories>
-
-
     <build>
         <plugins>
             <plugin>
-                <groupId>org.evosuite.plugins</groupId>
-                <artifactId>evosuite-maven-plugin</artifactId>
-                <version>1.0.6</version>
-            </plugin>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.4.3</version>
             </plugin>
         </plugins>
     </build>
