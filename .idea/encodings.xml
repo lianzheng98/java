@@ -6,5 +6,7 @@
     <file url="file://$PROJECT_DIR$/sb-rpc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>
