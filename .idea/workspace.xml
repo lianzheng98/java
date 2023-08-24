@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a6cf30-dcc1-41fd-bf43-46193889f034" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb-web-t/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb-web-t/src/main/java/com/cc/pg/web/BService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb-web-t/src/main/java/com/cc/pg/web/SpringBootdemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sb-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb-tool/sb-rpc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sb-tool/sb-rpc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb-tool/sb-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sb-tool/sb-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/sb-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb-web/target/sb-web-1.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/sb-web/target/sb-web-1.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-web-t/src/main/java/com/cc/pg/web/AController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-web-t/src/main/java/com/cc/pg/web/AController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-web-t/src/main/java/com/cc/pg/web/AService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-web-t/src/main/java/com/cc/pg/web/AService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-web-t/src/main/java/com/cc/pg/web/BService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-web-t/src/main/java/com/cc/pg/web/BService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-web-t/src/test/java/com/cc/pg/web/AServiceBootTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-web-t/src/test/java/com/cc/pg/web/AServiceBootTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-web-t/src/test/java/com/cc/pg/web/AServiceRefectionFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-web-t/src/test/java/com/cc/pg/web/AServiceRefectionFieldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-web-t/src/test/java/com/cc/pg/web/AbServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-web-t/src/test/java/com/cc/pg/web/AbServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-web-t/src/test/java/com/cc/pg/web/BServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-web-t/src/test/java/com/cc/pg/web/BServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb-web-t/src/test/java/com/cc/pg/web/WebBootTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sb-web-t/src/test/java/com/cc/pg/web/WebBootTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +75,8 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "e6e7067f78df5657d31d41f8e0f01dd4"
+    "settings.editor.selected.configurable": "copyright.filetypes.JAVA",
+    "spring.configuration.checksum": "17fc5370138152f100e20dd9a2291f88"
   }
 }]]></component>
   <component name="RebelAgentSelection">
@@ -204,7 +199,8 @@
       <workItem from="1685972976858" duration="315000" />
       <workItem from="1686323937296" duration="5550000" />
       <workItem from="1692625197255" duration="1532000" />
-      <workItem from="1692884464819" duration="1394000" />
+      <workItem from="1692884464819" duration="1504000" />
+      <workItem from="1692886009145" duration="153000" />
     </task>
     <servers />
   </component>
@@ -227,12 +223,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sb-web-t/src/test/java/com/cc/pg/web/BServiceTest.java</url>
-          <line>29</line>
+          <line>23</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sb-web-t/src/test/java/com/cc/pg/web/AServiceBootTest.java</url>
-          <line>35</line>
+          <line>29</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
