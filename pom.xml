@@ -13,6 +13,7 @@
         <module>sb-core</module>
         <module>sb-web</module>
         <module>sb-tool</module>
+        <module>sb-web-t</module>
     </modules>
 
     <parent>
@@ -31,17 +32,22 @@
             <dependency>
                 <groupId>com.pg633</groupId>
                 <artifactId>sb-core</artifactId>
-                <version>${version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.pg633</groupId>
                 <artifactId>sb-web</artifactId>
-                <version>${version}</version>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pg633</groupId>
+                <artifactId>sb-web-t</artifactId>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.pg633</groupId>
                 <artifactId>sb-tool</artifactId>
-                <version>${version}</version>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
